@@ -58,7 +58,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.borey-roun"
             artifactId = "libray"
-            version = "1.2"
+            version = "1.4"
 
             afterEvaluate {
                 from(components["release"])
